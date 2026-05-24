@@ -47,7 +47,7 @@ while($age < 18){
 
 for($i = 3 ; $i < 5; $i++){
     echo "<br>";
-    echo "hello $name";
+    echo "hello $name" ."<br>";
     
 }
 

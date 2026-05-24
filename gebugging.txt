@@ -1,0 +1,40 @@
+// Project 
+//PO , PCo(project coordinator) , BA( business Analysis) ,PM (project manager) , QA (Tester ,Quality Assurance) , FE(Front End) ,BE(Back End)
+
+
+Revision
+========
+1.
+- locat server - Xampp install (apache, MySQl)
+- first php file , git push
+
+
+2. 
+- data type ()
+- git push
+
+3. 
+- error
+- partice 
+
+4.
+- function
+    - resuable , recall
+    - defult value
+    - limit type , return
+    - scope
+- array
+    - index (roam number)
+    - associative  ( key , value)
+    - multimensional
+
+
+//Static Web Page
+
+    -html
+    -CSS - Bootstrap,
+    -JS - JQuery(libary) - (write Less , DO More)
+    - PHP 
+
+    - Webpack -> build -> index.js (means summary)
+    - 

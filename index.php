@@ -66,6 +66,12 @@ sayHello("jhon");
 sayHello("Lee <br>");
 
 
+//Php statement
+//Variable and Data type
+//Control flow
+//loops
+//Function
+
 $name = "Yan";
 echo $name;
 

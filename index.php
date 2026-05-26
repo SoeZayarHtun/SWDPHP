@@ -18,9 +18,9 @@ $is_married = true;
 echo "<br>";
 echo "hello $name , are you $is_married ";
 
-$hobbies = array("reading" , "writing" , "esport");
+$hobbies = array("reading" , "writing" , "esport" , "coding");
 echo "<br>";
-echo "hello $name , are you interested in $hobbies[0] , $hobbies[2] , and  $hobbies[1]";
+echo "hello $name , are you interested in $hobbies[0] , $hobbies[2] , $hobbies[3] and  $hobbies[1]";
 
 //control flow
 //if ,else , elseif , switch
@@ -28,11 +28,12 @@ echo "hello $name , are you interested in $hobbies[0] , $hobbies[2] , and  $hobb
 
 
 if($age < 18){
+   
     echo "<br>";
-    echo "you are not allowed to vote";
+    echo "you are not allowed to vote". $age;
 }else{
     echo "<br>";
-    echo "you are allowed to vote";
+    echo "you are allowed to vote" . $age;
 }
 
 //loops
@@ -83,10 +84,9 @@ echo "square root of $number is:" . $result . "<br>";
 //swap
 $a = 10;
 $b = 20;
-$temp = $a;
-$b = $temp;
-$a = $b;
-$b = $temp;
+$temp = $a; //temp = 10 
+$a = $b; //a = 20
+$b = $temp; //b = 10
 echo "<br>";
 echo $a;
 echo "<br>";

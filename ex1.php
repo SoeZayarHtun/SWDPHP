@@ -6,11 +6,9 @@ if($num % 2 == 0){
 }else{
 echo " $num ,it is odd";
 }
-
-
-
 echo "<br>";
 
+//Factorial
 function factorial($n) {
     $fact = 1;
     for($i= 1;$i <= $n; $i++){
